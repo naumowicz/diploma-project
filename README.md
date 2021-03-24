@@ -1,4 +1,4 @@
-# Diploma Project
+# Engineering thesis project
 Project bulit for presenting how visual regression works. Based on testing websites.
 
 ## Tools
