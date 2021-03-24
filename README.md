@@ -44,7 +44,13 @@ To start project (run tests), it's required to have Node.js installed (v12 and h
 Contains folder screenshot created when website wasn't modified yet.
 
 ### After folder
-Contains folder screenshot after website was modified, has diff images
+Contains folder screenshot after website was modified, has diff images.
+
+### Diploma images folder
+Images that were used in Engineering Thesis.
+
+### Info folder
+Text files containing output after each test. `Task.txt` describe how website was modified.
 
 ## How proper detection alghoritms for visual regression were determined
 Pair of images (folders google images, google images scaled, resemble images) were used on page https://rsmbl.github.io/Resemble.js/. Then output images from every ignore alghoritm and filter were saved. Next best alghoritm were definied for every provided pair, basing on how well differences were marked.
