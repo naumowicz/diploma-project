@@ -1,0 +1,13 @@
+Dla strony elements.html
+w sekcji FORM należy:
+- dla pola "demo-name" dodać placeholder "Full name"
+- dla pola "demo-email" dodać placeholder "Email"
+- usunąć pola "demo-priority-low", "demo-priority-normal", "demo-priority-high"
+w sekcji IMAGE należy:
+- usunąć nagłówek h4 zawierający "Fit" i znajdujące się pod nim obrazy
+
+Zasanie błędy
+TABLE alternate
+#main > section > div > section:nth-child(3) > div:nth-child(5) > table > tbody > tr:nth-child(5) > td:nth-child(2)
+
+Item Five > Description > background-color > yellow

@@ -1,0 +1,159 @@
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 87.0.4280.141 windows #0-1] Spec: C:\Users\Mateusz Asus\Desktop\diploma\test\src\features\sendingEmail.feature
+[chrome 87.0.4280.141 windows #0-1] Running: chrome (v87.0.4280.141) on windows
+[chrome 87.0.4280.141 windows #0-1] Session ID: 8060f765970d03ce38a2d357f567ebda
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1] Sending email
+[chrome 87.0.4280.141 windows #0-1] As a visitor
+[chrome 87.0.4280.141 windows #0-1] I want to be able to send email via email form
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1]     Sending email
+[chrome 87.0.4280.141 windows #0-1]     As a visitor
+[chrome 87.0.4280.141 windows #0-1]     I want to be able to send email via email form
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-1]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-1]        ✓ And I filled out email form
+[chrome 87.0.4280.141 windows #0-1]        ✖ And I sent form
+[chrome 87.0.4280.141 windows #0-1]        - Then email form should be empty
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1] 3 passing (55.8s)
+[chrome 87.0.4280.141 windows #0-1] 1 failing
+[chrome 87.0.4280.141 windows #0-1] 1 skipped
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1] 1) Sending email And I sent form
+[chrome 87.0.4280.141 windows #0-1] expect(received).toEqual(expected) // deep equality
+
+Expected: 0
+Received: 30.75
+[chrome 87.0.4280.141 windows #0-1] Error: expect(received).toEqual(expected) // deep equality
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1] Expected: 0
+[chrome 87.0.4280.141 windows #0-1] Received: 30.75
+[chrome 87.0.4280.141 windows #0-1]     at World.<anonymous> (C:\Users\Mateusz Asus\Desktop\diploma\test\src\steps\/email.js:28:89)
+[chrome 87.0.4280.141 windows #0-1]     at World.executeSync (C:\Users\Mateusz Asus\Desktop\diploma\test\node_modules\@wdio\sync\build\index.js:25:22)
+[chrome 87.0.4280.141 windows #0-1]     at C:\Users\Mateusz Asus\Desktop\diploma\test\node_modules\@wdio\sync\build\index.js:46:68
+------------------------------------------------------------------
+[chrome 87.0.4280.141 windows #0-2] Spec: C:\Users\Mateusz Asus\Desktop\diploma\test\src\features\veryfingEmailForm.feature
+[chrome 87.0.4280.141 windows #0-2] Running: chrome (v87.0.4280.141) on windows
+[chrome 87.0.4280.141 windows #0-2] Session ID: b15b87d3066979e1fafbbd6b6b86dac0
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2] Verifying email form
+[chrome 87.0.4280.141 windows #0-2] As a visitor
+[chrome 87.0.4280.141 windows #0-2] I should have properly displayed email form
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2]     Verifying email form
+[chrome 87.0.4280.141 windows #0-2]     As a visitor
+[chrome 87.0.4280.141 windows #0-2]     I should have properly displayed email form
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-2]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-2]        ✖ Then email form should be empty
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2] 2 passing (28.1s)
+[chrome 87.0.4280.141 windows #0-2] 1 failing
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2] 1) Verifying email form Then email form should be empty
+[chrome 87.0.4280.141 windows #0-2] expect(received).toEqual(expected) // deep equality
+
+Expected: 0
+Received: 2.97
+[chrome 87.0.4280.141 windows #0-2] Error: expect(received).toEqual(expected) // deep equality
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2] Expected: 0
+[chrome 87.0.4280.141 windows #0-2] Received: 2.97
+[chrome 87.0.4280.141 windows #0-2]     at World.<anonymous> (C:\Users\Mateusz Asus\Desktop\diploma\test\src\steps\/email.js:34:151)
+[chrome 87.0.4280.141 windows #0-2]     at World.executeSync (C:\Users\Mateusz Asus\Desktop\diploma\test\node_modules\@wdio\sync\build\index.js:25:22)
+[chrome 87.0.4280.141 windows #0-2]     at C:\Users\Mateusz Asus\Desktop\diploma\test\node_modules\@wdio\sync\build\index.js:46:68
+------------------------------------------------------------------
+[chrome 87.0.4280.141 windows #0-0] Spec: C:\Users\Mateusz Asus\Desktop\diploma\test\src\features\menu.feature
+[chrome 87.0.4280.141 windows #0-0] Running: chrome (v87.0.4280.141) on windows
+[chrome 87.0.4280.141 windows #0-0] Session ID: a366af53f8c82f7a74341ecf26366bfe
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0] Navigating through menu
+[chrome 87.0.4280.141 windows #0-0] As a visitor
+[chrome 87.0.4280.141 windows #0-0] I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigating through home page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Home" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Spectral" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigating through home page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Generic Page" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigating through home page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Elements" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through generic page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Home" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Spectral" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through generic page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Generic Page" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through generic page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Elements" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through elements page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Home" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Spectral" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through elements page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Generic Page" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through elements page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Elements" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0] 33 passing (3m 25.5s)
+
+
+Spec Files:      1 passed, 2 failed, 3 total (100% completed) in 00:03:45

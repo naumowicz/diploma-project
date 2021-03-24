@@ -1,0 +1,130 @@
+ "spec" Reporter:
+------------------------------------------------------------------
+[chrome 87.0.4280.141 windows #0-1] Spec: C:\Users\Mateusz Asus\Desktop\diploma\test\src\features\sendingEmail.feature
+[chrome 87.0.4280.141 windows #0-1] Running: chrome (v87.0.4280.141) on windows
+[chrome 87.0.4280.141 windows #0-1] Session ID: dd8c0598a54cfc54c4dad0363841dc09
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1] Sending email
+[chrome 87.0.4280.141 windows #0-1] As a visitor
+[chrome 87.0.4280.141 windows #0-1] I want to be able to send email via email form
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1]     Sending email
+[chrome 87.0.4280.141 windows #0-1]     As a visitor
+[chrome 87.0.4280.141 windows #0-1]     I want to be able to send email via email form
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-1]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-1]        ✓ And I filled out email form
+[chrome 87.0.4280.141 windows #0-1]        ✓ And I sent form
+[chrome 87.0.4280.141 windows #0-1]        ✓ Then email form should be empty
+[chrome 87.0.4280.141 windows #0-1]
+[chrome 87.0.4280.141 windows #0-1] 5 passing (8.2s)
+------------------------------------------------------------------
+[chrome 87.0.4280.141 windows #0-2] Spec: C:\Users\Mateusz Asus\Desktop\diploma\test\src\features\veryfingEmailForm.feature
+[chrome 87.0.4280.141 windows #0-2] Running: chrome (v87.0.4280.141) on windows
+[chrome 87.0.4280.141 windows #0-2] Session ID: 4001f70264f1f2542ebdba89232736a4
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2] Verifying email form
+[chrome 87.0.4280.141 windows #0-2] As a visitor
+[chrome 87.0.4280.141 windows #0-2] I should have properly displayed email form
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2]     Verifying email form
+[chrome 87.0.4280.141 windows #0-2]     As a visitor
+[chrome 87.0.4280.141 windows #0-2]     I should have properly displayed email form
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-2]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-2]        ✓ Then email form should be empty
+[chrome 87.0.4280.141 windows #0-2]
+[chrome 87.0.4280.141 windows #0-2] 3 passing (7.7s)
+------------------------------------------------------------------
+[chrome 87.0.4280.141 windows #0-0] Spec: C:\Users\Mateusz Asus\Desktop\diploma\test\src\features\menu.feature
+[chrome 87.0.4280.141 windows #0-0] Running: chrome (v87.0.4280.141) on windows
+[chrome 87.0.4280.141 windows #0-0] Session ID: bd55ef0c3269310dbfa28d047ac46d19
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0] Navigating through menu
+[chrome 87.0.4280.141 windows #0-0] As a visitor
+[chrome 87.0.4280.141 windows #0-0] I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigating through home page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Home" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Spectral" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigating through home page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Generic Page" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigating through home page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Elements" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through generic page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Home" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Spectral" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through generic page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Generic Page" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through generic page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Elements" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through elements page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Home" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Spectral" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through elements page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Generic" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Generic Page" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]     Navigation through elements page
+[chrome 87.0.4280.141 windows #0-0]     As a visitor
+[chrome 87.0.4280.141 windows #0-0]     I should be able to navigate to every page through menu
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0]        ✓ Given I am on the website
+[chrome 87.0.4280.141 windows #0-0]        ✓ When I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ And I visited "Elements" subpage
+[chrome 87.0.4280.141 windows #0-0]        ✓ Then header "Elements" should be visible
+[chrome 87.0.4280.141 windows #0-0]
+[chrome 87.0.4280.141 windows #0-0] 33 passing (1m 8.5s)
+
+
+Spec Files:      3 passed, 3 total (100% completed) in 00:01:14
